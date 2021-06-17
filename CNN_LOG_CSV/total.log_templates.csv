@@ -1,0 +1,115 @@
+EventId,EventTemplate,Occurrences,Score
+ef03332e,[system] Failed to activate service <*> timed out (service_start_timeout=25000ms),2,C
+e35a70fe,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> <*>,4,A
+f831cb6d,Failed password for <*> from <*> port <*> ssh2,7,A
+4f670e12,PAM <*> more authentication <*> logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> <*>,3,A
+113ffeee,message repeated 2 times: [ Failed password for nvidia from <*> port 64516 ssh2],1,A
+347982c6,pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/1 ruser=nvidia rhost= user=nvidia,1,A
+7bf97aad,"<*> dp lt: state 4 (link training fail/disable), pending_lt_evt 1",8,C
+8ec8a5fc,<*> dp lt: switching from state 4 (link training fail/disable) to state 0 (Reset),8,C
+a50e7089,"[ 0.000000] OF: fdt:Reserved memory: failed to reserve memory for node <*> base 0x0000000000000000, size 0 MiB",6,D
+a642583f,[ <*> tegradc tegradc.1: dpd enable lookup fail:-19,3,D
+042b0ea1,[ <*> dp lt: switching from state <*> <*> <*> <*> <*> <*> <*> <*>,20,D
+dbda32ef,"[ <*> dp lt: state 4 (link training fail/disable), pending_lt_evt 1",10,D
+8c82f2e3,[ <*> imx219 6-0010: imx219_board_setup: error during i2c read probe (-121),3,D
+1a633943,[ <*> imx219 6-0010: board setup failed,3,D
+3c6af9e1,[ <*> imx219: probe of 6-0010 failed with error -121,3,D
+f296f081,[ <*> tegra_soctherm 700e2000.soctherm: failed to register sensor: -19,3,D
+a56d3310,[ <*> random: 7 urandom warning(s) missed due to ratelimiting,3,D
+0daf0612,[ <*> mt7601u 1-2.4:1.0: Warning: unsupported EEPROM version 0d,3,C
+a04d66d1,<*> dp lt: switching from state 0 (Reset) to state 4 (link training fail/disable),7,C
+49a15fa1,<*> mt7601u 1-2.4:1.0: Error: <*> urb failed:-71,33,C
+502e799b,<*> mt7601u 1-2.4:1.0: Warning: unsupported EEPROM version 0d,2,C
+6fc69316,[147545.300362] mt7601u 1-2.4:1.0: Vendor request req:07 off:1700 failed:-71,1,C
+a1624755,[147545.384369] mt7601u 1-2.4:1.0: Error: MAC specific condition occurred,1,C
+70d1ac30,gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed,4497,C
+86d1b403,"message repeated <*> times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]",18,C
+7b9eb55b,"Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.",40,C
+b8256390,failed to call gs_plugin_add_installed on shell-extensions: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.gnome.Shell.Extensions' on object at path /org/gnome/Shell,8,C
+b28e70a0,"Failed to find one package for arduino-arduinoide.desktop, /usr/share/applications/arduino-arduinoide.desktop, [0]",8,C
+08954c0e,WARNING:root:estimate_kernel_initrd_size_in_boot() returned '0' for kernel?,8,C
+41666bea,<*> FuEngine Failed to load SMBIOS: ?ãÂ?Ê™îÊ???sys/firmware/dmi/tables/smbios_entry_point?çÂ§±?óÔ?No such file or directory,9,D
+c09ba0a8,g_strsplit: assertion 'string != NULL' failed,10,D
+4d74d88a,g_strv_length: assertion 'str_array != NULL' failed,10,D
+555d534b,json_object_has_member: assertion 'member_name != NULL' failed,10,C
+942036bf,shell-extensions did not set error for gs_plugin_refresh,8,C
+e121dd0e,"<*> handshake failed; returned -1, SSL error code 1, net_error -101",68,C
+455aa180,failed to get session [pid <*> Ê≤íÊ??ØÁî®?ÑË???4,,C
+f51105ff,Error: Can't initialize nvrm channel,141,C
+543487ed,no xrandr-DELL P2214H-WDFP744J0TVB device found: Failed to find output xrandr-DELL P2214H-WDFP744J0TVB,4,D
+6dbb637f,Failed to load PNP ids: Failed to open file ??usr/share/hwdata/pnp.ids?? No such file or directory,7,C
+ae1bd9a3,message repeated 2 times: [ Failed to load PNP ids: Failed to open file ??usr/share/hwdata/pnp.ids?? No such file or directory],3,C
+176160fe,(EE) Error loading keymap /tmp/server-1.xkm,2,D
+1df3cdff,"> Error: Can't find file ""default"" for symbols include",2,D
+2e7364a6,Errors from xkbcomp are not fatal to the X server,2,D
+026f4717,g_variant_unref: assertion 'value != NULL' failed,115,D
+a07c54c0,"Called ""net usershare info"" but it failed: Failed to execute child process ?únet??(No such file or directory)",6,C
+e8522b45,menus_destroyed: assertion 'IS_WINDOW_MENU(wm)' failed,6,C
+1c3714cf,message repeated <*> times: [ g_variant_unref: assertion 'value != NULL' failed],30,C
+5c23eb20,message repeated <*> times: [ Error: Can't initialize nvrm channel],139,C
+818c4ffe,<*> FontService unique font name matching request did not receive a response.,39,D
+55a74c88,Fontconfig error: Cannot load default config file: No such file: (null),3,C
+28acf538,[ 2.960150] systemd[1]: Proceeding WITHOUT firewalling in effect! (This warning is only shown for the first loaded unit using IP firewalling.),1,B
+3f0d0e25,failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory,1,C
+2a7e6570,"WARNING: systemd-networkd is not running, output will be incomplete.",1,C
+706865c9,Started Display Low memory warning.,1,A
+70abe7be,Failed to load the 'mdraid' libblockdev plugin,1,C
+b082275d,"time=""2021-06-15T<*>.549746196+08:00"" level=info msg=""skip loading plugin \""io.containerd.snapshotter.v1.btrfs\""..."" error=""path /var/lib/containerd/io.containerd.snapshotter.v1.btrfs (ext4) must be a btrfs filesystem to be used with the btrfs snapshotter: skip plugin"" type=io.containerd.snapshotter.v1",1,B
+1c4546fd,"time=""2021-06-15T<*>.550176405+08:00"" level=warning msg=""failed to load plugin io.containerd.snapshotter.v1.devmapper"" error=""devmapper not configured""",1,B
+7674e916,"time=""2021-06-15T<*>.565507550+08:00"" level=info msg=""skip loading plugin \""io.containerd.snapshotter.v1.aufs\""..."" error=""modprobe aufs failed: \""modprobe: FATAL: Module aufs not found in directory /lib/modules/4.9.140-tegra\\n\"": exit status 1: skip plugin"" type=io.containerd.snapshotter.v1",1,B
+e4f5f1ba,"time=""2021-06-15T<*>.580334530+08:00"" level=info msg=""skip loading plugin \""io.containerd.snapshotter.v1.zfs\""..."" error=""path /var/lib/containerd/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter: skip plugin"" type=io.containerd.snapshotter.v1",1,B
+c3de63a1,"time=""2021-06-15T<*>.581484373+08:00"" level=warning msg=""could not use snapshotter devmapper in metadata plugin"" error=""devmapper not configured""",1,B
+8cd57ae3,"time=""2021-06-15T<*>.661157967+08:00"" level=error msg=""Failed to load cni during init, please check CRI plugin status before setting up network for pods"" error=""cni config load failed: no network config found in /etc/cni/net.d: cni plugin not initialized: failed to load cni config""",1,B
+3d6546e7,Warning. Cannot find COMPATIBLE_SPEC in /etc/nv_boot_control.conf,1,C
+2d78c992,dbus: Failed to construct signal,1,C
+3ba86874,dbus: fill_dict_with_properties dbus_interface=fi.w1.wpa_supplicant1.Interface dbus_property=Stations getter failed,2,C
+39997165,dbus: wpa_dbus_get_object_properties: failed to get object properties: (none) none,1,C
+933f1f63,"#011(WW) warning, (EE) error, (NI) not implemented, (??) unknown.",2,D
+d8e2532d,(EE) NVIDIA(0): Failed to allocate NVIDIA Error Handler,2,D
+650b78b3,(II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon,2,D
+5.54E+42,<*> WARNING: App 'spice-vdagent.desktop' exited with code 1,2,C
+36f85f17,WARNING: App 'spice-vdagent.desktop' exited with code 1,2,C
+4b9dd773,Error looking up permission: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.impl.portal.PermissionStore was not provided by any .service files,1,C
+94e0e528,"JS WARNING: [resource:///org/gnome/shell/ui/layout.js 29]: reference to undefined property ""MetaWindowX11""",1,C
+c6d2dff8,g_array_unref: assertion 'array' failed,1,C
+465505b5,message repeated 4 times: [ g_array_unref: assertion 'array' failed],1,C
+085e56cd,_XSERVTransSocketUNIXCreateListener: ...SocketCreateListener() failed,1,C
+48e4eacd,volume-control-pulse.vala:735: unable to get pulse unix socket: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.PulseAudio1 was not provided by any .service files,1,D
+a9015424,gnome-session-binary[6893]: WARNING: Could not get session id for session. Check that logind is properly installed and pam_systemd is getting used at login.,1,C
+42bc724b,WARNING: Could not get session id for session. Check that logind is properly installed and pam_systemd is getting used at login.,1,C
+2c8a7dc4,ibus_bus_call_sync: assertion 'ibus_bus_is_connected (bus)' failed,1,D
+6adc9403,WARN 2021-06-15 <*> unity.dash.gsettingsscopereader GSettingsScopes.cpp:108 Error fetching protocol metadata for scope: social.scope : Valid key file could not be found in search dirs,1,C
+fcd6e61f,ERROR 2021-06-15 <*> unity.glib.dbus.server GLibDBusServer.cpp:538 DBus name lost <*>,2,C
+fbe06626,track_menus: assertion 'IS_WINDOW_MENU(menus)' failed,3,C
+33367e8f,window_menu_model_new: assertion 'BAMF_IS_APPLICATION(app)' failed,3,C
+15e88919,"Grab failed for some keys, another application may already have access the them.",1,C
+b4e0f8d2,<*> WARNING]#033[0m zeitgeist-daemon.vala:127: Unable to parse version info!,5,C
+d315aadd,WARNING:root:Error loading .desktop file /usr/share/applications/evolution-calendar.desktop: constructor returned NULL,2,C
+b1fe6d6e,"Error calling org.gtk.vfs.MonitorClient.Changed(): Timeout was reached (g-io-error-quark, 24)",10,C
+94160472,"Failed to load module ""canberra-gtk-module""",1,D
+149621a0,"message repeated 3 times: [ Error calling org.gtk.vfs.MonitorClient.Changed(): Timeout was reached (g-io-error-quark, 24)]",1,C
+f90d0b51,Libgcrypt warning: missing initialization - please fix the application,1,C
+53f74ded,[session uid=1000 pid=6286] Activated service 'org.kde.kwalletd' failed: Failed to execute program org.kde.kwalletd: No such file or directory,1,C
+84210553,"<*> level=warning msg=""Your kernel does not support cgroup <*> <*>",4,B
+3287559a,"time=""2021-06-10T<*>.486333186+08:00"" level=error msg=""bb8a753654d4c8cbe12ba72378b7d23b6cddc9b1cf36e13fcaf8aa1ffee7c61b cleanup: failed to delete container from containerd: no such container""",1,C
+47701203,"time=""2021-06-10T<*>.487392005+08:00"" level=error msg=""Handler for POST /v1.40/containers/bb8a753654d4/start returned error: error gathering device information while adding custom device \""/dev/ttyUSB0\"": no such file or directory""",1,C
+1f1c7733,<*> Failed to connect to MCS endpoint with error <*>,26,D
+772782fa,<*> Closing stream with result -2,3,D
+89bdc57f,WARN <*> <*> unity.screen UScreen.cpp:131 UScreen::GetMonitorName: Failed to get monitor name for monitor0,3,D
+f9d20663,(EE) systemd-logind: failed to release device: Device not taken,2,D
+f5951cf6,"/usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.",2,C
+f9b8206b,"WARNING:root:timeout reached, exiting",2,C
+827407cf,"[4922:4938:0612/041546.552826:ERROR:mcs_client.cc(758)] Received close command, resetting connection.",1,C
+dcd9ea3b,<info> <*> device (wlan0): state change: <*> -> <*> (reason <*> sys-iface-state: 'managed'),6,B
+0d1a9301,<warn> <*> device (wlan0): Activation: failed for connection <*>,3,B
+e106cf2b,updates-shell: failed to get updates: Timeout was reached,1,D
+b7f2fec2,failed to get <*> apps: Timeout was reached as snap took too long to return results,2,D
+bb2bf43a,failed to get category <*> featured applications: Timeout was reached as snap took too long to return results,2,D
+1e0a12ec,"internal error: failed, but no error code: cancelled",1,D
+7cf29b91,"dnd_is_screensaver_active(): Got error ""Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.""",157,C
+0ac50e4d,"<*> [<*>:8009, auth=SSL_VERIFIED] CANCELLED - Aborting DoConnectLoop.",13,D
+c37ef3e7,nl80211: send_and_recv->nl_recvmsgs failed: -33,1,C
+3c80292f,"dnd_is_idle_inhibited(): got error ""Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.""",1,C
+20d9225e,WARN 2021-06-14 <*> unity <unknown>:0 Failed to get active window: Timeout was reached,1,C
+fe5aab1f,<*> GCM channel request failed.,20,C
+42dc7233,failed to call gs_plugin_refine_app on snap: Failed to read from snapd: Error receiving data: Connection reset by peer,1,D
