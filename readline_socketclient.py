@@ -4,20 +4,19 @@ import serial
 import time
 import socket
 
-port = '/dev/ttyUSB0' # note I'm using Mac OS-X
-ard = serial.Serial(port,115200,timeout=3,
+
+
+
+
+
+
+def readline():  
+  while os.path.exists("/dev/ttyUSB0")==True:
+    port = '/dev/ttyUSB0'
+    ard = serial.Serial(port,115200,timeout=3,
            parity=serial.PARITY_NONE,
            bytesize=serial.EIGHTBITS,
            stopbits=serial.STOPBITS_ONE)
-time.sleep(2)
-
-
-
-
-def readline():
-
-  
-  while True:
     try:
        incoming = ard.readline().decode('ascii')
        print(incoming)
@@ -41,4 +40,5 @@ def readline():
        pass
 
 if __name__ == '__main__' :
+   while True:
      readline()
