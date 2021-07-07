@@ -105,7 +105,7 @@ def send_DMS():
    ard = serial.Serial(port,115200,timeout=3,
            parity=serial.PARITY_NONE,
            bytesize=serial.EIGHTBITS,
-           stopbits=serial.STOPBITS_ONE
+           stopbits=serial.STOPBITS_ONE)
    if ard.isOpen():
       total_info = get_total_info()
       #update key name
