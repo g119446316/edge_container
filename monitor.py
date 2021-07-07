@@ -12,12 +12,12 @@ from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad 
 
 
-port = '/dev/ttyUSB0'
+"""port = '/dev/ttyUSB0'
 ard = serial.Serial(port,115200,timeout=3,
            parity=serial.PARITY_NONE,
            bytesize=serial.EIGHTBITS,
            stopbits=serial.STOPBITS_ONE)
-
+"""
 
 def get_total_info():
  while True:
@@ -100,7 +100,12 @@ def get_total_info():
   return total_info
 
 def send_DMS():
-  while True:
+  while os.path.exists("/dev/ttyUSB0")==True:
+   port = '/dev/ttyUSB0'
+   ard = serial.Serial(port,115200,timeout=3,
+           parity=serial.PARITY_NONE,
+           bytesize=serial.EIGHTBITS,
+           stopbits=serial.STOPBITS_ONE
    if ard.isOpen():
       total_info = get_total_info()
       #update key name
@@ -139,4 +144,5 @@ def send_DMS():
 
 
 if __name__ == '__main__' :
-     send_DMS()
+    while True:
+      send_DMS()
