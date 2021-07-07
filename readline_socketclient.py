@@ -4,12 +4,6 @@ import serial
 import time
 import socket
 
-
-
-
-
-
-
 def readline():  
   while os.path.exists("/dev/ttyUSB0")==True:
     port = '/dev/ttyUSB0'
