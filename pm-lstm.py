@@ -11,7 +11,7 @@ import csv
 
 def lstm_data():
  today = datetime.now().strftime("%Y-%m-%d")
- file_name = "./csv/"+today + ".csv"
+ file_name = "/pmcsv/"+today + ".csv"
  file_exists = os.path.isfile(file_name)
 
 
